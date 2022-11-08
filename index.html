@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Coffee Masters</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="app.webmanifest">
+    <link rel="apple-touch-icon" href="images/icons/icon.png">
+    <link rel="icon" href="images/icons/icon.png">
+
+    <script src="scripts/app.js" type="module"></script>
+</head>
+
+<body>
+    <header>
+        <h1><img src="images/logo.svg" width="140" alt="Coffee Masters"></h1>
+        <nav>
+            <a class="navlink material-symbols-outlined" id="linkHome" href="/">
+                    local_cafe
+            </a>
+            <a class="navlink material-symbols-outlined" id="linkOrder" href="/order">
+                    shopping_cart
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page" id="home">
+            <ul id="menu"></ul>
+        </section>
+        <section class="page" id="details">
+            <article>
+            </article>
+        </section>
+        <section class="page" id="order">
+            <h2>Order</h2>
+        </section>
+    </main>
+</body>
+</html>
